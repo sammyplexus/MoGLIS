@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_id": "moglis-80c2",
+    "project_number": "632330888334",
+    "name": "MoGLIS"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632330888334:android:baad95f70e83ee56",
+        "client_id": "android:com.example.sammybobo.moglis",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.sammybobo.moglis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632330888334-864b6056gpcs4prtl8scgrc071ce7hf1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sammybobo.moglis",
+            "certificate_hash": "4AF6F118F35329D27D13FB6880B1E925E909E9C8"
+          }
+        },
+        {
+          "client_id": "632330888334-23pb5kf96bn7m19v5kahtetcfg8g37op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

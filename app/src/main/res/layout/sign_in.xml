@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:background="#13df3a0c"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="8sp">
+    <EditText
+        android:layout_height = "wrap_content"
+        android:layout_width = "fill_parent"
+        android:hint = "username"
+        android:id = "@+id/username_login"
+        android:gravity="center_horizontal"
+        android:background="#c7ffffff"
+        android:textSize="18sp"
+        />
+    <EditText
+        android:layout_height = "wrap_content"
+        android:layout_width = "fill_parent"
+        android:hint = "password"
+        android:id = "@+id/password_login"
+        android:gravity="center_horizontal"
+        android:background="#c7ffffff"
+        android:layout_marginTop="4sp"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:layout_height="20sp"
+        android:layout_width="fill_parent"
+        android:text="Sign In"
+        android:id = "@+id/button_login"
+        android:background="#c7ffffff"
+        android:layout_marginTop="4sp"
+        />
+
+
+
+    <com.google.android.gms.common.SignInButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/sign_in_button">
+
+    </com.google.android.gms.common.SignInButton>
+    </LinearLayout>
+</LinearLayout>

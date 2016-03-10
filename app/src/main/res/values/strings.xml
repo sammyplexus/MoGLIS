@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MoGLIS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="server_client_id">632330888334-23pb5kf96bn7m19v5kahtetcfg8g37op.apps.googleusercontent.com</string>
+    <string name = "google_api_key">AIzaSyDy5zrWqn747GAUTOwqwQ8c4wRaTh0S01g</string>
+</resources>
