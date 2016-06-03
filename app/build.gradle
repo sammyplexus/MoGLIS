@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin: 'me.tatarka.retrolambda'
+//apply plugin: 'me.tatarka.retrolambda'
 
 android
         {
@@ -8,10 +8,11 @@ android
 
     defaultConfig {
         applicationId "com.example.sammybobo.moglis"
-        minSdkVersion 13
+        minSdkVersion 14
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
+
     }
     buildTypes {
         release {
@@ -19,20 +20,25 @@ android
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-            compileOptions {
-                sourceCompatibility JavaVersion.VERSION_1_8
-                targetCompatibility JavaVersion.VERSION_1_8
-            }
+
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.google.android.gms:play-services:8.4.0'
+    compile 'com.google.android.gms:play-services-maps:8.4.0'
+    compile 'com.google.android.gms:play-services-location:8.4.0'
+    compile 'com.google.android.gms:play-services-auth:8.4.0'
     compile 'com.android.support:cardview-v7:23.1.0'
     compile 'com.android.support:palette-v7:23.1.0'
     compile 'com.android.support:recyclerview-v7:23.1.0'
     compile 'com.android.support:design:23.1.0'
     compile 'io.reactivex:rxandroid:0.24.0'
-
+    compile 'io.reactivex:rxjava:1.1.1'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0'
+    compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+    compile 'com.squareup.okhttp:okhttp:2.2.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'
+    compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
 }

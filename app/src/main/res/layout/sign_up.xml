@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:layout_gravity="center">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:background="#13df3a0c"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:padding="8sp">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/til">
+        <EditText
+            android:layout_height = "wrap_content"
+            android:layout_width = "fill_parent"
+            android:hint = "username"
+            android:id = "@+id/username_signup"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            />
+         </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_height = "wrap_content"
+            android:layout_width = "fill_parent"
+            android:hint = "email address"
+            android:id = "@+id/emailaddress_signup"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/username_wrapper">
+        <EditText
+            android:layout_height = "wrap_content"
+            android:layout_width = "fill_parent"
+            android:hint = "password"
+            android:id = "@+id/password_signup"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="4sp"
+            android:textSize="18sp"
+            android:inputType="textPassword"
+            />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id = "@+id/password_wrapper">
+        <EditText
+            android:layout_height = "wrap_content"
+            android:layout_width = "fill_parent"
+            android:hint = "Enter password again"
+            android:id = "@+id/password_signup2"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="4sp"
+            android:textSize="18sp"
+            android:inputType="textPassword"
+            />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Join us!"
+            android:id = "@+id/button_sign_up"
+            android:padding="4sp"
+            android:layout_marginTop="4sp"
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
+</android.support.v7.widget.CardView>
+</FrameLayout>
+
+    <!-- android:background="#c7ffffff"-->
+
